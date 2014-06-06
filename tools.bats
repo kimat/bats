@@ -1,4 +1,4 @@
-#!/usr/bin/env bats
+#/usr/bin/env bats
 
 @test "deb little tools" {
   apt-get -y install vim htop atool ncdu tree screen fping fail2ban build-essential curl tmux
