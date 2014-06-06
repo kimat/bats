@@ -12,3 +12,7 @@ bats bats
 # install just one app
 bats bats/ruby.bats
 ```
+
+# Todo
+- use non OS dependent calls
+- actually use tests before launching stuff
