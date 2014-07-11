@@ -1,5 +1,5 @@
 #!/usr/bin/env bats
-@test "bower"{
+@test "bower" {
 apt-get install -y --no-install-recommends nodejs
 apt-get install -y --no-install-recommends npm
 npm install -g bower
