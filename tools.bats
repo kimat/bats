@@ -1,7 +1,7 @@
 #/usr/bin/env bats
 
 @test "deb little tools" {
-  apt-get -y install vim htop atool ncdu tree screen fping fail2ban build-essential curl tmux
+  apt-get -y install vim htop atool ncdu tree screen fping fail2ban build-essential curl tmux checkinstall
 }
 
 @test "dependencies often asked" {

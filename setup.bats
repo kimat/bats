@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 
-@test "grub fix" { 
+@test "grub fix" {
   sed -i '/.*set timeout=-.*/c\  set timeout=5' /etc/grub.d/00_header
   update-grub
 }
