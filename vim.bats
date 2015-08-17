@@ -4,7 +4,7 @@
 # [Compiling Vim with Ruby support by Arjan van der Gaag](http://arjanvandergaag.nl/blog/compiling-vim-with-ruby-support.html)
 @test "vim" {
 sudo apt-get remove vim vim-runtime gvim
-hg clone https://vim.googlecode.com/hg/ vim
+git clone https://github.com/vim/vim.git
 cd vim
 ./configure --with-features=huge \
             --enable-multibyte \
